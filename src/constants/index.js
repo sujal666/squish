@@ -1,226 +1,236 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: " VidGenie– AI-powered video content generator",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Developed a full-stack application for YouTube channel data scraping and AI-driven video idea generation using Next.js.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Integrated YouTube Data API to fetch channel videos, comments, and metadata for detailed analysis.",
+      "Implemented AI workflows with CrewAI/OpenAI to analyze video content and generate optimized video ideas.",
+      "Deployed and managed serverless PostgreSQL databases with Neon and Drizzle ORM.",
+      // "Added payment systems, localization, and product filtering for functionality improvements.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/projects/landingpage.png",
     tags: [
       {
         id: 1,
-        name: "C#",
+        name: "Crew-AI",
         path: "/assets/logos/csharp.svg",
       },
       {
         id: 2,
-        name: ".Net",
+        name: "Next.js",
         path: "/assets/logos/dotnet.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
+        name: "Youtube-API",
         path: "/assets/logos/efcore.png",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "Open-AI",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+            {
+        id: 4,
+        name: "Postgresql",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: " Open Source AI- Smart GitHub Issue Finder",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Built an issue-discovery platform filtering GitHub tickets by language/difficulty with 10k+ curated issues.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Implemented AI chatbot (Gemini API) to explain technical issues and suggest solutions",
+      "Features: Saved issues list, repo health metrics, 1-click GitHub redirects : Next.js 14, Tailwind, ShadCN, GitHub REST/GraphQL API, Vercel hosting, Firebase-Firestore",
+      "Fetched Users Github data and presents it with chats and graphs to track thier performance",
+      "Created leaderboard and ranked users based on issues solved to make website more interactive.",
     ],
-    href: "",
+    href: "https://opensource-nu.vercel.app/",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/projects/opensource.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
+        name: "Github-API",
         path: "/assets/logos/auth0.svg",
       },
       {
         id: 2,
-        name: "React",
+        name: "Next.js",
         path: "/assets/logos/react.svg",
       },
       {
         id: 3,
-        name: "SQLite",
+        name: "Gemini",
         path: "/assets/logos/sqlite.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "Graphql",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+            {
+        id: 4,
+        name: "prisma",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "FinAI- AI-Powered Financial Management Platform",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      " Developed a full-stack financial management platform with intelligent budgeting and receipt scanning using React 19,Next.js 15, and Tailwind CSS.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Integrated Supabase with Prisma ORM for real-time transaction tracking and secure multi-account management.",
+      "Implemented AI-powered receipt scanning that automatically extracts and categorizes transaction details.",
+      "proactive budget alerts with Inngest background jobs that trigger email notifications at 80 percent spending thresholds.",
+      "Built interactive dashboards with data visualizations for spending patterns, income vs. expenses, and net worth tracking.",
     ],
-    href: "",
+    href: "https://finance-ai-lovat.vercel.app/",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/projects/finance.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
+        name: "Next.js",
         path: "/assets/logos/blazor.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
+        name: "Innjest",
         path: "/assets/logos/dotnetcore.svg",
       },
       {
         id: 3,
-        name: "SQLite",
+        name: "Arcjet",
         path: "/assets/logos/sqlite.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "Supabase",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+            {
+        id: 4,
+        name: "Gemini",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "IPhone Website Clone",
     description:
       "A lightweight C++ game engine designed for 2D and 3D game development.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Utilized cutting-edge GSAP animations to create a visually captivating experience",
+      "incorporating smooth 3D rotations, dynamic light effects, and parallax scrolling.Implemented hover and touch interactions that respond dynamically",
+      "including zoom-ins,color shifts, and subtle pulsations, providing a tactile feel reminiscent of a real iPhone.",
     ],
-    href: "",
+    href: "https://iphone-web-alpha.vercel.app/",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/projects/iphoneclone.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "Next.js",
+        path: "/projects/iphoneclone.png",
       },
       {
         id: 2,
-        name: "C#",
+        name: "Typescript",
         path: "/assets/logos/csharp.svg",
       },
       {
         id: 3,
-        name: "Git",
+        name: "Gsap",
         path: "/assets/logos/git.svg",
       },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
+
     ],
   },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   title: "WordPress Custom Theme",
+  //   description:
+  //     "A fully customizable WordPress theme optimized for performance and SEO.",
+  //   subDescription: [
+  //     "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
+  //     "Integrated Tailwind CSS for modern styling and UI enhancements.",
+  //     "Optimized SEO and page speed using Vite.js for fast builds.",
+  //     "Implemented custom widgets and plugin compatibility for extended functionality.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/wordpress-theme.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "WordPress",
+  //       path: "/assets/logos/wordpress.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "HTML5",
+  //       path: "/assets/logos/html5.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "CSS3",
+  //       path: "/assets/logos/css3.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Vite.js",
+  //       path: "/assets/logos/vitejs.svg",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   title: "Online Learning Platform",
+  //   description:
+  //     "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+  //   subDescription: [
+  //     "Built using Blazor WebAssembly for a seamless SPA experience.",
+  //     "Implemented video streaming with Azure Media Services.",
+  //     "Added a quiz system with dynamic question generation and real-time grading.",
+  //     "Integrated Stripe API for secure payment processing.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/elearning.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "Blazor",
+  //       path: "/assets/logos/blazor.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "Azure",
+  //       path: "/assets/logos/azure.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "Stripe",
+  //       path: "/assets/logos/stripe.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "TailwindCSS",
+  //       path: "/assets/logos/tailwindcss.svg",
+  //     },
+  //   ],
+  // },
 ];
 
 export const mySocials = [
@@ -231,12 +241,12 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "",
+    href: "https://www.linkedin.com/in/ali-sanati/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "",
+    href: "https://www.instagram.com/ali.sanatidev/reels/",
     icon: "/assets/socials/instagram.svg",
   },
 ];
